@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="formbold-main-wrapper">
+
+        <div class="formbold-form-wrapper form-img">
+            <img src="img/Logo.png" class="img-fluid">
+
+            <div class="Application-title">
+                <h2>Add Company Projects</h2>
+            </div>
+
+            <form action="" method="POST">
+                <div class="formbold-input-wrapp formbold-mb-3">
+                    <label for="firstname" class="formbold-form-label">Title</label>
+
+                    <div>
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter Project Title"
+                            class="formbold-form-input" />
+                    </div>
+                </div>
+
+                <div>
+                    <label for="message" class="formbold-form-label"> Discription</label>
+                    <textarea rows="6" name="message" id="message" placeholder="Enter Project Discription"
+                        class="formbold-form-input"></textarea>
+                </div>
+
+                <div class="formbold-mb-3">
+                    <label for="upload" class="formbold-form-label">
+                        Project Image
+                    </label>
+                    <input type="file" name="upload" id="upload" class="formbold-form-input formbold-form-file" />
+                </div>
+
+                <button class="formbold-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
