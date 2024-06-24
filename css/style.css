@@ -379,6 +379,8 @@
     box-sizing: border-box;
 }
 
+/* Form Section Styles */
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -412,6 +414,11 @@ body {
 .Application-title {
     margin-top: 3rem;
     margin-bottom: 2rem;
+    color: black !important;
+}
+
+.Application-title h2{
+    color: #000000;
 }
 
 .form-img img {
@@ -574,6 +581,15 @@ select.formbold-form-input,
 
 .formbold-w-45 {
     width: 45%;
+}
+
+
+.content h3 button{
+    width: 130px;
+    height: 7opx;
+    border-radius: 30px;
+    background-color: red;
+    border: 2px white solid;
 }
 
 
